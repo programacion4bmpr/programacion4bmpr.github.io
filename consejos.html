@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>PROYECTO</title>
+	<style>
+		.cabecera{
+			background-color: black;
+			color: white;
+			height: 100%;
+			width: 100%;
+		}
+		.cabecera1{
+			background-color: black;
+			color: white;
+			height: 50%;
+			width: 50%;
+		}
+		.menu {
+				display: flex;
+				flex-flow: row;
+			}
+			.columna {
+				flex: 1 1 auto;
+			}
+			.columna2 {
+				flex: 1 1 auto;
+			}
+      		@media(max-width: 600px){
+				.menu {
+					flex-flow: column;
+				}
+			}
+			.lol {
+				display: flex;
+				flex-flow: row;
+			}
+			@media(max-width: 600px){
+				.lol {
+					flex-flow: column;
+				}
+			}
+			a {
+				text-decoration: none;
+				color: red;
+			}
+			
+		img{;transition: 0.5s;object-fit: cover;}
+		img:hover{transform:scale(1.05);}
+	</style>
+</head>
+<body>
+	<section>
+		<center>
+			<div class="in-flex">
+				<div class="in-flex cabecera">
+					<h1>SELECCIONE LA OPCION QUE QUIERAS</h1>
+				</div>
+				<br>
+				<div class="in-flex cabecera ">
+					<h4>En ésta página vamos a instruirte en las leyes de tránsito y cómo seguirlas, además, también te darémos algunos consejos de cómo se prudentes a la hora de manejar por las calles.</h4>
+					<h4>Por último, podrás encontrar una encuesta al final para poder ayudarnos a saber más de ti y de tus hábitos a la hora de manejar</h4>
+				</div>
+				<br><br><br>
+				<div class="in-flex">
+					<div class="menu cabecera1">
+						<div class="columna menu1"><a href="tips.html"><h1>CONSEJOS</h1></a></div>
+					</div>
+					<br><br><br>
+					<a href="tips.html"><img src="imagenesHTML\carro.png" height="700" width="400"></a>
+					<a href="index.html" style="text-align: right;"><img src="imagenesHTML\FLECHA.png" height="70" width="70" align="left"></a>
+					<a href="encuesta.html" style="text-align: right;"><img src="imagenesHTML\FLECHAR.png" height="70" width="70" align="right"></a>
+				</div>
+			</div>
+		</center>
+	</section>
+</body>
+</html>

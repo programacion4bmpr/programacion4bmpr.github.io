@@ -1,0 +1,30 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+body{
+	background-image: url(imagenesHTML/mercuriowe.jpeg);
+}
+.home {
+	display: flex;
+	flex-wrap: wrap;
+}
+.in-flex {
+	flex: 1 ;
+	min-width: 240px;
+}
+.in-flex:first-child {
+	flex: 2;
+	margin-bottom: 0px;
+}
+.in-flex div {
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+}
+.in-flex form {
+	padding: 2px;
+	margin: 0px;
+	width: 100%;
+}
